@@ -92,7 +92,7 @@ export default function Home() {
   const openInviteLinkPopup = () => {
     if (selectedGroup) {
       setInviteLinkPopupOpen(true);
-      const link = `http://127.0.0.1:3000/join/group/${selectedGroup.id}`;
+      const link = `https://chatapp-backend.vismrit.com/join/group/${selectedGroup.id}`;
       setInviteLink(link);
       console.log("Popup opened");
     }

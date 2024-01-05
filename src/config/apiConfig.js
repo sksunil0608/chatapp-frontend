@@ -1,6 +1,6 @@
 
 const apiConfig = {
-    baseURL: process.env.REACT_APP_BASE_URL || 'http://44.219.93.131',
+    baseURL: process.env.REACT_APP_BASE_URL || 'https://chatapp-backend.vismrit.com',
 };
 
 export { apiConfig };
