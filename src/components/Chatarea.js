@@ -274,7 +274,6 @@ const Chatarea = ({ selectedGroup, token, updateSelectedGroup }) => {
   useEffect(() => {
     const combinedChats = [...attachments, ...messages].map((chat) => {
       // Convert message or attachment to a common format
-
       const tempKey = chat.id;
 
       return {
